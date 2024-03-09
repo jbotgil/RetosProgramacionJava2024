@@ -30,14 +30,12 @@ public class jbotgil {
             return false;
         }
 
-
         //Hacer 2 bucles que compare el charAt de 1 de la palabra 1 con cada una de las letras de la segunda palabra
         for (int i = 0; i < palabra1.length(); i++) {
             boolean encontrado = false;
             for (int j = 0; j < palabra2.length(); j++) {
-                if (palabra1.charAt(i) == palabra2.charAt(j)) {
+                if (palabra1.charAt(i) == palabra2.charAt(j) && !encontrado) {
                     encontrado = true; // Se ha encontrado una coincidencia
-                    break; // Salimos del bucle interno
                 }
             }
             // Si no se encontró una coincidencia para la letra de palabra1, no es un anagrama
