@@ -2,7 +2,7 @@ package Reto2Anagrama;
 
 import java.util.Scanner;
 
-public class jbotgil {
+public class Anagrama {
 
     /*
      * Escribe una función que reciba dos palabras (String) y retorne

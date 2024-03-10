@@ -1,6 +1,6 @@
 package Reto3Fibonacci;
 
-public class jbotgil {
+public class Fibonacci {
 
     /*
      * Escribe un programa que imprima los 50 primeros números de la sucesión

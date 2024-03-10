@@ -1,6 +1,6 @@
 package Reto1FizzBuzz;
 
-public class jbotgil {
+public class FizzBuzz {
 
     /*
      * Escribe un programa que muestre por consola (con un print) los
