@@ -23,7 +23,7 @@ public class InvertirCadena {
 
         String cadena = "Hay que invertir esta cadena";
 
-        String cadena2 = "Cadena invertida 2";
+        String cadena2 = "Hola mundo";
 
         invertirCadena(cadena);
         System.out.println();
